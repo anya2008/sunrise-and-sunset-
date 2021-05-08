@@ -37,7 +37,7 @@ async function getTime(){
    else {
        var bg = "sunset12.png";
    }
-   backgroundimage = loadImage(bg);
+   backgroundImg = loadImage(bg);
     console.log(hour);
 
 }
@@ -57,7 +57,7 @@ function setup(){
 function draw(){
     // add condition to check if any background image is there to add
     if(backgroundImg ){
-        background(backgroundimage);
+        background(backgroundImg);
         }
     Engine.update(engine);
 
